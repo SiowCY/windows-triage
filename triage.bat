@@ -2,7 +2,7 @@
 REM Note: Please run as Administrator
 REM A simple Windows Triage to capture important information when performing incident response. 
 REM Modify the script base on your environment.
-REM Thanks Sysinternals and NirSoft for excellent tools
+REM Thanks Sysinternals, NirSoft and MoonSol for excellent tools
 
 echo Output results will store in TriageOutput
 set mypath=%~dp0
