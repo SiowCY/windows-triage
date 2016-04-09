@@ -1,2 +1,2 @@
 # windows-triage
-A simple Windows Triange for incident response
+A simple Windows triage for incident response
