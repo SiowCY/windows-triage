@@ -26,7 +26,7 @@ echo Collecting browsing history and last activities
 "%mypath%\LastActivityView.exe" /shtml "%mypath%\TriageOutput\lastactivity.html"
 "%mypath%\LastActivityView.exe" /scomma "%mypath%\TriageOutput\lastactivity.csv"
 
-echo Collecting event logs, autoruns, process list and tcp log via sysinternals
+echo Collecting event logs, autoruns and process list via sysinternals
 psloglist.exe -s /accepteula > "%mypath%\TriageOutput\system-event.csv"
 psloglist.exe -s Security /accepteula > "%mypath%\TriageOutput\security-event.csv"
 autorunsc.exe -c /accepteula > "%mypath%\TriageOutput\autostart.csv"
