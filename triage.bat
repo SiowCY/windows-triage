@@ -33,3 +33,5 @@ autorunsc.exe -c /accepteula > "%mypath%\TriageOutput\autostart.csv"
 autorunsc.exe -a t -c /accepteula > "%mypath%\TriageOutput\taskschduler.csv"
 pslist.exe -t /accepteula > "%mypath%\TriageOutput\processlist.txt"
 
+echo Acquiring memory image via DumpIt
+start %mypath%\DumpIt.exe
