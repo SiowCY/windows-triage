@@ -21,10 +21,10 @@ ipconfig /displaydns > "%mypath%\TriageOutput\dnscache.txt"
 netstat -abno > "%mypath%\TriageOutput\netstats.txt"
 
 echo Collecting browsing history and last activities
-"%mypath%\browsinghistoryview\BrowsingHistoryView.exe" /sverhtml "%mypath%\TriageOutput\browserhistory.html"
-"%mypath%\browsinghistoryview\BrowsingHistoryView.exe" /scomma "%mypath%\TriageOutput\browserhistory.csv"
-"%mypath%\lastactivityview\LastActivityView.exe" /shtml "%mypath%\TriageOutput\lastactivity.html"
-"%mypath%\lastactivityview\LastActivityView.exe" /scomma "%mypath%\TriageOutput\lastactivity.csv"
+"%mypath%\BrowsingHistoryView.exe" /sverhtml "%mypath%\TriageOutput\browserhistory.html"
+"%mypath%\BrowsingHistoryView.exe" /scomma "%mypath%\TriageOutput\browserhistory.csv"
+"%mypath%\LastActivityView.exe" /shtml "%mypath%\TriageOutput\lastactivity.html"
+"%mypath%\LastActivityView.exe" /scomma "%mypath%\TriageOutput\lastactivity.csv"
 
 echo Collecting event logs, autoruns, process list and tcp log via sysinternals
 psloglist.exe -s /accepteula > "%mypath%\TriageOutput\system-event.csv"
