@@ -10,4 +10,4 @@ Thanks to NirSoft for browsinghistoryview and lastactivityview.
 - Browsing history is important especially exploitation took place through web browser plugins.
 
 Thanks to MoonSols for DumpIt.
-- When doing live response, memory of the machine is important due to malware could runs in memory.
+- Memory is always important when catching malware that only run in memory.
