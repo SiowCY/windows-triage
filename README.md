@@ -11,3 +11,4 @@ Thanks to NirSoft for browsinghistoryview and lastactivityview.
 
 Thanks to MoonSols for DumpIt.
 - Memory is always important when catching malware that only run in memory.
+Note: The acquired memory will save in system32 directory. If you want to run it in USB, comment or remove the last line in the batch file.
